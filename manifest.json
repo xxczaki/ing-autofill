@@ -1,0 +1,19 @@
+{
+  "name": "ING autofill",
+  "description": "Make 1Password autofill the masked password on ING Bank Śląski's website automagically",
+  "homepage_url": "https://github.com/xxczaki/ing-autofill",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "run_at" : "document_idle",
+      "js": ["main.js"],
+      "matches": [
+        "https://login.ingbank.pl/*"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "https://login.ingbank.pl/*"
+  ]
+}
