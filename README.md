@@ -21,7 +21,7 @@ I did not bother trying them, but a first glance instantly revealed some issues:
 Therefore, I felt happy with what I came up with.
 
 ## Highlights
-- Simple (one file, <50 LOC, pure JavaScript)
+- Simple (one file, <50 LOC, pure JavaScript, easy to understand)
 - Uses Manifest V3, with a minimal amount of permissions
 
 ## Installation
