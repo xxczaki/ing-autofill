@@ -24,6 +24,14 @@ Therefore, I felt happy with what I came up with.
 - Simple (one file, <50 LOC, pure JavaScript)
 - Uses Manifest V3, with a minimal amount of permissions
 
+## Installation
+
+1. Download this repository into a folder somewhere on your computer.
+2. Enter `chrome://extensions/` in Google Chrome's address bar.
+3. At the top right, turn on **Developer mode**.
+4. Click **Load unpacked**.
+5. Select the folder from step 1.
+
 ## FAQ
 
 ### Does it work other password managers (Bitwarden, Dashlane, etc.)?
