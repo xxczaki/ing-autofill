@@ -50,6 +50,8 @@ Therefore, I felt happy with what I came up with.
 
 ![Screenshot showing how to grant the extension access to the page](/assets/firefox-help.png)
 
+*Note: temporary add-ons are removed when Firefox is restarted.*
+
 ## Automatic installation
 
 Currently not possible — the extension is not yet live in neither the Chrome Web Store, nor the Firefox Add-ons.
