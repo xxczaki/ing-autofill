@@ -1,6 +1,6 @@
 # ING Autofill
 
-> Make password managers autofill the masked password on ING bank's website automagically
+> Make password managers autofill the masked password on ING bank's website automagically.
 
 ## Why?
 
@@ -29,13 +29,29 @@ Therefore, I felt happy with what I came up with.
 
 *Other managers may work as well; this list includes those which were tested and confirmed to be working.*
 
-## Installation
+## Manual installation (*recommended*)
+
+### Chromium-based browsers
 
 1. Download this repository into a folder somewhere on your computer.
-2. Enter `chrome://extensions/` in Google Chrome's address bar.
+2. Enter `chrome://extensions/` in the address bar.
 3. At the top right, turn on **Developer mode**.
 4. Click **Load unpacked**.
 5. Select the folder from step 1.
+
+### Firefox-based browsers
+
+1. Download this repository into a folder somewhere on your computer.
+2. Enter `about:debugging#/runtime/this-firefox` in the address bar.
+3. Click **Load Temporary Add-on…**.
+4. Select the `manifest.json` file located in the folder you created in step 1.
+5. Go to ING's login page and, from the extensions menu, make sure to grant the extension access to the page:
+
+![Screenshot showing how to grant the extension access to the page](/assets/firefox-help.png)
+
+## Automatic installation
+
+Currently not possible — the extension is not yet live in neither the Chrome Web Store, nor the Firefox Add-ons.
 
 ## License
 
