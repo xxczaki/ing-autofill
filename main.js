@@ -1,4 +1,6 @@
 (() => {
+	console.log('%cING Autofill is active', 'background-color: #ED6C2D; color: white; font-size: 16px');
+
 	const observer = new MutationObserver(() => {
 		const loginInput = document.querySelector('#login-input');
 
