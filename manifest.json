@@ -1,7 +1,7 @@
 {
 	"$schema": "https://json.schemastore.org/chrome-manifest",
   "name": "ING autofill",
-  "description": "Make 1Password autofill the masked password on ING Bank Śląski's website automagically",
+  "description": "Make password managers autofill the masked password on ING bank's website automagically",
   "homepage_url": "https://github.com/xxczaki/ing-autofill",
   "version": "0.0.1",
   "manifest_version": 3,

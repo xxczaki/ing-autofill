@@ -1,6 +1,6 @@
 # ING Autofill
 
-> Make 1Password autofill the masked password on ING Bank Śląski's website automagically
+> Make password managers autofill the masked password on ING bank's website automagically
 
 ## Why?
 
@@ -24,6 +24,11 @@ Therefore, I felt happy with what I came up with.
 - Simple (one file, <50 LOC, pure JavaScript, easy to understand)
 - Uses Manifest V3, with a minimal amount of permissions
 
+## Supported password managers
+- 1Password
+
+*Other managers may work as well; this list includes those which were tested and confirmed to be working.*
+
 ## Installation
 
 1. Download this repository into a folder somewhere on your computer.
@@ -31,12 +36,6 @@ Therefore, I felt happy with what I came up with.
 3. At the top right, turn on **Developer mode**.
 4. Click **Load unpacked**.
 5. Select the folder from step 1.
-
-## FAQ
-
-### Does it work other password managers (Bitwarden, Dashlane, etc.)?
-
-I don't know.
 
 ## License
 

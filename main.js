@@ -5,7 +5,7 @@
 		const loginInput = document.querySelector('#login-input');
 
 		if (loginInput) {
-			// Make 1Password suggestion popup when clicking the input
+			// Make password manager suggestion pop up when clicking the input
 			loginInput.setAttribute('autocomplete', 'username');
 		}
 
