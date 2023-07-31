@@ -26,6 +26,7 @@ Therefore, I felt happy with what I came up with.
 
 ## Supported password managers
 - 1Password
+- Bitwarden
 
 *Other managers may work as well; this list includes those which were tested and confirmed to be working.*
 

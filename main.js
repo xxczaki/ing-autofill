@@ -9,6 +9,14 @@
 			loginInput.setAttribute('autocomplete', 'username');
 		}
 
+		const fields = document.querySelectorAll('[id^=mask-]');
+
+		if (fields.length > 0) {
+			for (const field of fields) {
+				field.setAttribute('readonly', 'true');
+			}
+		}
+
 		/*
 			ING actually has an autocomplete catcher to prevent password managers
 			from messing up the form
@@ -19,18 +27,16 @@
 			autocompleteCatcher.addEventListener('change', event => {
 				const password = event.target.value;
 
-				const fields = document.querySelectorAll('[id^=mask-]');
+				for (const field of fields) {
+					const characterNumber = Number.parseInt(field.id.split('-')[1], 10) - 1;
 
-				if (fields.length > 0) {
-					for (const field of fields) {
-						const characterNumber = Number.parseInt(field.id.split('-')[1], 10) - 1;
-
-						field.value = password[characterNumber];
-						// This is needed to "enable" the login button
-						field.dispatchEvent(new KeyboardEvent('keyup', {bubbles: true, key: 'Enter'}));
-						field.dispatchEvent(new KeyboardEvent('keydown', {bubbles: true, key: 'Enter'}));
-					}
+					field.value = password[characterNumber];
+					// This is needed to "enable" the login button
+					field.dispatchEvent(new KeyboardEvent('keyup', {bubbles: true, key: 'Enter'}));
+					field.dispatchEvent(new KeyboardEvent('keydown', {bubbles: true, key: 'Enter'}));
 				}
+
+				observer.disconnect();
 			}, {once: true});
 		}
 	});
