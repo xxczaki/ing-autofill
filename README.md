@@ -54,7 +54,7 @@ Therefore, I felt happy with what I came up with.
 
 ## Automatic installation
 
-Currently not possible — the extension is not yet live in neither the Chrome Web Store, nor the Firefox Add-ons.
+- [**Chrome Web Store**](https://chrome.google.com/webstore/detail/ing-autofill/lkaklgijolidfahcedddhaaedbbaiomo)
 
 ## License
 
