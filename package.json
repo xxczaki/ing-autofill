@@ -2,7 +2,7 @@
 	"scripts": {
 		"build": "esbuild main.ts --bundle --minify --outdir=build",
 		"watch": "pnpm build --watch",
-		"pack": "zip -r bundle.zip build manifest.json"
+		"package": "zip -r bundle.zip build icons manifest.json"
 	},
 	"dependencies": {
 		"kagekiri": "^1.4.3"
