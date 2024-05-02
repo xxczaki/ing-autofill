@@ -1,0 +1,14 @@
+{
+	"scripts": {
+		"build": "esbuild main.ts --bundle --minify --outdir=build",
+		"watch": "pnpm build --watch",
+		"pack": "zip -r bundle.zip build manifest.json"
+	},
+	"dependencies": {
+		"kagekiri": "^1.4.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.7.2",
+		"esbuild": "0.20.2"
+	}
+}

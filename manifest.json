@@ -1,19 +1,17 @@
 {
 	"$schema": "https://json.schemastore.org/chrome-manifest",
-  "name": "ING autofill",
-  "description": "Make password managers autofill the masked password on ING bank's website automagically",
-  "homepage_url": "https://github.com/xxczaki/ing-autofill",
-  "version": "0.0.2",
-  "manifest_version": 3,
-  "content_scripts": [
-    {
-      "run_at" : "document_end",
-      "js": ["main.js"],
-      "matches": [
-        "https://login.ingbank.pl/*"
-      ]
-    }
-  ],
+	"name": "ING autofill",
+	"description": "Make password managers autofill work on the ING bank's website.",
+	"homepage_url": "https://github.com/xxczaki/ing-autofill",
+	"version": "0.1.0",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"run_at": "document_end",
+			"js": ["build/main.js"],
+			"matches": ["https://login.ingbank.pl/*"]
+		}
+	],
 	"icons": {
 		"16": "icons/16.png",
 		"48": "icons/48.png",

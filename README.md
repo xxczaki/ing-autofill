@@ -1,6 +1,6 @@
 # ING Autofill
 
-> Make password managers autofill the masked password on ING bank's website automagically.
+> Make password managers autofill work on the ING bank's website.
 
 ## Why?
 
@@ -20,8 +20,10 @@ I did not bother trying them, but a first glance instantly revealed some issues:
 
 Therefore, I felt happy with what I came up with.
 
+In May 2024, I updated the extension so that it works on ING's new website.
+
 ## Highlights
-- Simple (one file, <50 LOC, pure JavaScript, easy to understand)
+- Simple (one file, <100 LOC, pure JavaScript, easy to understand)
 - Uses Manifest V3, with a minimal amount of permissions
 
 ## Supported password managers
