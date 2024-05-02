@@ -36,7 +36,7 @@ In May 2024, I updated the extension so that it works on ING's new website.
 
 ### Chromium-based browsers
 
-1. Download this repository into a folder somewhere on your computer.
+1. Clone or download this repository into a folder somewhere on your computer.
 2. Enter `chrome://extensions/` in the address bar.
 3. At the top right, turn on **Developer mode**.
 4. Click **Load unpacked**.
@@ -57,6 +57,7 @@ In May 2024, I updated the extension so that it works on ING's new website.
 ## Automatic installation
 
 - [**Chrome Web Store**](https://chrome.google.com/webstore/detail/ing-autofill/lkaklgijolidfahcedddhaaedbbaiomo)
+- *Firefox Add-ons release coming soon*
 
 ## License
 
