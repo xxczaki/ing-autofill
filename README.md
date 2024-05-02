@@ -23,7 +23,7 @@ Therefore, I felt happy with what I came up with.
 In May 2024, I updated the extension so that it works on ING's new website.
 
 ## Highlights
-- Simple (one file, <100 LOC, pure JavaScript, easy to understand)
+- Simple (a single file, <100 LOC, easy to understand)
 - Uses Manifest V3, with a minimal amount of permissions
 
 ## Supported password managers
