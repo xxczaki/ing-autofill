@@ -3,7 +3,7 @@
 	"name": "ING autofill",
 	"description": "Make password managers autofill work on the ING bank's website.",
 	"homepage_url": "https://github.com/xxczaki/ing-autofill",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"manifest_version": 3,
 	"content_scripts": [
 		{
