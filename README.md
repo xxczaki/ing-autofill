@@ -32,7 +32,12 @@ In May 2024, I updated the extension so that it works on ING's new website.
 
 *Other managers may work as well; this list includes those which were tested and confirmed to be working.*
 
-## Manual installation (*recommended*)
+## Automatic installation
+
+- [**Chrome Web Store**](https://chrome.google.com/webstore/detail/ing-autofill/lkaklgijolidfahcedddhaaedbbaiomo)
+- [**Firefox Add-ons**](https://addons.mozilla.org/en-US/firefox/addon/ing-autofill/)
+
+## Manual installation
 
 ### Chromium-based browsers
 
@@ -53,11 +58,6 @@ In May 2024, I updated the extension so that it works on ING's new website.
 ![Screenshot showing how to grant the extension access to the page](/assets/firefox-help.png)
 
 *Note: temporary add-ons are removed when Firefox is restarted.*
-
-## Automatic installation
-
-- [**Chrome Web Store**](https://chrome.google.com/webstore/detail/ing-autofill/lkaklgijolidfahcedddhaaedbbaiomo)
-- *Firefox Add-ons release coming soon*
 
 ## License
 
