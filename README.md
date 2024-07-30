@@ -26,6 +26,12 @@ In May 2024, I updated the extension so that it works on ING's new website.
 - Simple (a single file, <100 LOC, easy to understand)
 - Uses Manifest V3, with a minimal amount of permissions
 
+## How does it work?
+
+1. We create hidden inputs for both the username and the password, making sure password managers will see them and autofill accordingly.
+2. Once the hidden login input gets autofilled, we fill the actual login input click on the "Next" button.
+3. Once the hidden password input gets autofilled, we fill the actual masked password inputs accordingly and click on the final "Login" button.
+
 ## Supported password managers
 - 1Password
 - Bitwarden
