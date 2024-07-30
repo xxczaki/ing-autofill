@@ -8,7 +8,8 @@
 		"kagekiri": "^1.4.3"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.7.2",
-		"esbuild": "0.20.2"
-	}
+		"@biomejs/biome": "1.8.3",
+		"esbuild": "0.23.0"
+	},
+	"packageManager": "pnpm@9.6.0"
 }

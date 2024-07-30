@@ -59,6 +59,12 @@ In May 2024, I updated the extension so that it works on ING's new website.
 
 *Note: temporary add-ons are removed when Firefox is restarted.*
 
+## Development
+
+1. Make sure you have [Node.js](https://nodejs.org/) v20 installed, with [Corepack enabled](https://nodejs.org/api/corepack.html#enabling-the-feature).
+2. Run `pnpm install` to install the required dependencies.
+3. Run `pnpm build && pnpm pack` to build and pack the extension into a `bundle.zip` file.
+
 ## License
 
 MIT
