@@ -10,7 +10,7 @@ When I first realized that my password manager does not support autofilling mask
 
 Out of pure Sunday boredom, I gave myself an hour to create the simplest Chrome extension that would fix this annoying issue.
 
-After making something that works as expected, I searches for some alternatives and found:
+After making something that works as expected, I searched for some alternatives and found:
 - https://github.com/piotr-sarna/ING-Password-Filler
 - https://chrome.google.com/webstore/detail/ing-%20-1password-autofill/heagjbohbnbaioaiekgioabidmgoihdc?hl=pl
 
@@ -20,11 +20,11 @@ I did not bother trying them, but a first glance instantly revealed some issues:
 
 Therefore, I felt happy with what I came up with.
 
-In May 2024, I updated the extension so that it works on ING's new website.
+In May 2024, I updated the extension so that it now works on ING's new website.
 
 ## Highlights
 - Simple (a single file, <100 LOC, easy to understand)
-- Uses Manifest V3, with a minimal amount of permissions
+- Uses Manifest V3, with a minimal number of permissions
 
 ## How does it work?
 
@@ -36,7 +36,8 @@ In May 2024, I updated the extension so that it works on ING's new website.
 - 1Password
 - Bitwarden
 
-*Other managers may work as well; this list includes those which were tested and confirmed to be working.*
+> [!NOTE]  
+> Other password managers may work as well; this list only includes those which were tested and confirmed to be working.
 
 ## Automatic installation
 
@@ -63,7 +64,8 @@ In May 2024, I updated the extension so that it works on ING's new website.
 
 ![Screenshot showing how to grant the extension access to the page](/assets/firefox-help.png)
 
-*Note: temporary add-ons are removed when Firefox is restarted.*
+> [!IMPORTANT]  
+> Temporary add-ons are removed when Firefox is restarted.
 
 ## Development
 
