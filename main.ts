@@ -32,7 +32,7 @@
 				'input[name="login"]',
 			) as HTMLInputElement;
 			const submitButton = querySelector(
-				'button[type="submit"]',
+				'ing-button[type="submit"]',
 			) as HTMLButtonElement;
 
 			loginInput.value = value;
@@ -46,12 +46,12 @@
 		{ once: true },
 	);
 
-	let value: string;
+	let password: string;
 
 	passwordCatcher.addEventListener(
 		'change',
 		(event) => {
-			value = (event.target as HTMLInputElement).value;
+			password = (event.target as HTMLInputElement).value;
 
 			// Clean-up
 			passwordCatcher.remove();
@@ -70,24 +70,20 @@
 			// Clean-up
 			observer.disconnect();
 
-			const fields = querySelectorAll(
-				'input[name^=pin-]:enabled',
-			) as HTMLInputElement[];
-			const submitButton = querySelector(
-				'button[type="submit"]',
-			) as HTMLButtonElement;
+			const fields = querySelectorAll('ing-pin-field');
 
 			for (const field of fields) {
-				const characterNumber =
-					Number.parseInt(field.name.split('-')[1], 10) - 1;
+				const input = field.lastElementChild as HTMLInputElement;
+				const positionDiv = Array.from(field.children).find(
+					(child) => child.getAttribute('slot') === 'after',
+				) as HTMLDivElement;
+				const position = Number.parseInt(positionDiv?.textContent?.trim() || '0', 10);
 
-				field.disabled = true;
-				field.value = value[characterNumber];
-
-				field.dispatchEvent(new Event('input', { bubbles: true }));
+				if (input && position > 0) {
+					input.value = password[position - 1];
+					input.dispatchEvent(new Event('input', { bubbles: true }));
+				}
 			}
-
-			submitButton.click();
 		}
 	});
 

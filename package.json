@@ -2,14 +2,15 @@
 	"scripts": {
 		"build": "esbuild main.ts --bundle --minify --outdir=build",
 		"watch": "pnpm build --watch",
-		"package": "zip -r bundle.zip build icons manifest.json"
+		"package": "zip -r bundle.zip build icons manifest.json",
+		"lint": "biome check --write main.ts"
 	},
 	"dependencies": {
-		"kagekiri": "^1.4.3"
+		"kagekiri": "^2.0.0"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.8.3",
-		"esbuild": "0.23.0"
+		"@biomejs/biome": "2.3.5",
+		"esbuild": "^0.27.0"
 	},
-	"packageManager": "pnpm@9.6.0"
+	"packageManager": "pnpm@10.21.0"
 }
