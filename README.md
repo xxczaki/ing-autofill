@@ -4,7 +4,7 @@
 
 ## Why?
 
-As a 1Password user, I hated the fact that my bank uses a masked password strategy — it renders the autofill functionality useless and forces me to use the "Show in Large Type" functionality.
+As a 1Password user, I hated the fact that my bank uses a masked password strategy – it renders the autofill functionality useless and forces me to use the "Show in Large Type" functionality.
 
 When I first realized that my password manager does not support autofilling masked passwords, I stumbled upon some threads on the 1Password forum. I did not, however, search for any existing solutions to this problem at that time, nor before starting coding this utility a few years later.
 
